@@ -197,11 +197,11 @@ my_function = {
 my_function('Hello world!'); /* Outputs 'Hello world!' */
 ```
 
-### What's the difference between parameter and arguments?
-
-The parameter is the actual variable itself, while the argument is the data the parameter represents.
-
-In the last example, that would mean `parameter` would be the parameter, while `'Hello world!'` would be the argument.
+>### What's the difference between parameter and arguments?
+>
+>The parameter is the actual variable itself, while the argument is the data the parameter represents.
+>
+>In the last example, that would mean `parameter` would be the parameter, while `'Hello world!'` would be the argument.
 
 # Operators
 
@@ -217,7 +217,7 @@ Joins two strings together.
 joined = 'Hello ' .. 'world!'; /* joined equals 'Hello world!'
 ```
 
-**Note**: The join operator does not add a space by default, so you will need to add one yourself.
+>**Note**: The join operator does not add a space by default, so you will need to add one yourself.
 
 ## Math Operators
 
