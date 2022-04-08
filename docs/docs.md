@@ -225,7 +225,15 @@ joined = 'Hello ' .. 'world!'; /* joined equals 'Hello world!'
 
 Adds two values together.
 
-If both values contain only numbers, then it will add
+If both values contain only numbers, then mathematically add the numbers together. If they don't, it will concatenate the two values together.
+
+```
+added = '1' + '2'; /* added equals '3' */
+
+added = 'tape' + 'paper'; /* added equals 'tapepaper' */
+```
+
+>**Note**: *NEVER* use the addition operator as to concatenate. Always use the concatenate operator (`..`) when joining values together.
 
 
 ## Break and End
