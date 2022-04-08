@@ -209,9 +209,9 @@ Operators allow you to manipulate data, like add numbers or join values togegthe
 
 ## Text Operators
 
-### Join Operator (`..`)
+### Concatenate Operator (`..`)
 
-Joins two strings together. 
+Concatenates, or joins, two strings together. 
 
 ```
 joined = 'Hello ' .. 'world!'; /* joined equals 'Hello world!'
