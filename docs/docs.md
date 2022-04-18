@@ -265,7 +265,7 @@ Boxlang should be easy to implement and learn, but should not be limiting
 
 Boxlang should be syntactically strict, with little or no exceptions to syntax rules
 
-Boxlang should promote clean and readible code, but should not depend on the code being formatted.
+Boxlang should promote clean and readible code, but should not depend on the code being formatted
 
 Boxlang should be easily extensible with Boxlang libraries
 
