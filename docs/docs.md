@@ -241,7 +241,7 @@ added = '1' + '2'; /* added equals '3' */
 added = 'foo1' + 'bar1'; /* added equals 'foo1bar1' */
 ```
 
->**Note**: *NEVER* use the addition operator as to concatenate. Always use the concatenate operator (`..`) when joining values together.
+>**Note**: *NEVER* use the addition operator to concatenate. Always use the concatenate operator (`..`) when joining values together.
 
 ### Subtraction Operator (`-`)
 
