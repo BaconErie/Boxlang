@@ -227,7 +227,7 @@ Boxlang math operations follow the PEMDAS order of operations.
 
 This means that Boxlang computes math expressions in parentheses first, then exponential expressions, then multiplication and division expressions, then addition and subtraction expressions.
 
-Also, remember that `-4^2` is NOT equal to `(-4)^2` (where ^ is the exponent operator). `-4^2` would equal -16, while `(-4)^2` would equal 16.
+Also, remember that `-4^2` is NOT equal to `(-4)^2` (where `^` is the exponent operator). `-4^2` would equal -16, while `(-4)^2` would equal 16.
 
 ### Addition Operator (`+`)
 
@@ -238,11 +238,24 @@ If both values contain only numbers, then mathematically add the numbers togethe
 ```
 added = '1' + '2'; /* added equals '3' */
 
-added = 'foo' + 'bar'; /* added equals 'foobar' */
+added = 'foo1' + 'bar1'; /* added equals 'foo1bar1' */
 ```
 
 >**Note**: *NEVER* use the addition operator as to concatenate. Always use the concatenate operator (`..`) when joining values together.
 
+### Subtraction Operator (`-`)
+
+Subtracts two values.
+
+If both values contain only numbers, then mathematically subtract the numbers. If at least one of the values contain text, Boxlang will concatenate the two values together.
+
+```
+subtracted = '1' - '2'; /* subtracted equals '-1' */
+
+subtracted = 'foo1' - 'bar1'; /* subtracted equals 'foo1bar1' */
+```
+
+>**Note**: Like with the addition operator, *NEVER* use the subtraction operator to concatenate. Always use the concatenate operator (`..`) when joining values together.
 
 ## Break and End
 
