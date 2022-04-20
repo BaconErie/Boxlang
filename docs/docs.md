@@ -209,7 +209,7 @@ Operators allow you to manipulate data, like add numbers or join values togegthe
 
 ## Text Operators
 
-### Concatenate Operator (`..`)
+### **Concatenate Operator (`..`)**
 
 Concatenates, or joins, two strings together. 
 
