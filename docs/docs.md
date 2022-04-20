@@ -221,7 +221,7 @@ joined = 'Hello ' .. 'world!'; /* joined equals 'Hello world!'
 
 ## Math Operators
 
-### Order of Operations
+### **Order of Operations**
 
 Boxlang math operations follow the PEMDAS order of operations.
 
@@ -229,7 +229,7 @@ This means that Boxlang computes math expressions in parentheses first, then exp
 
 Also, remember that `-4^2` is NOT equal to `(-4)^2` (where `^` is the exponent operator). `-4^2` would equal -16, while `(-4)^2` would equal 16.
 
-### Addition Operator (`+`)
+### **Addition Operator (`+`)**
 
 Adds two values together.
 
@@ -243,7 +243,7 @@ added = 'foo1' + 'bar1'; /* added equals 'foo1bar1' */
 
 >**Note**: *NEVER* use the addition operator to concatenate. Always use the concatenate operator (`..`) when joining values together.
 
-### Subtraction Operator (`-`)
+### **Subtraction Operator (`-`)**
 
 Subtracts two values.
 
