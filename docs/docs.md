@@ -233,7 +233,7 @@ Also, remember that `-4^2` is NOT equal to `(-4)^2` (where `^` is the exponent o
 
 Adds two values together.
 
-If both values contain only numbers, then mathematically add the numbers together. If they don't, it will concatenate the two values together.
+If both values contain only numbers, then Boxlang will mathematically add the numbers together. If they don't, it will concatenate the two values together.
 
 ```
 added = '1' + '2'; /* added equals '3' */
@@ -247,7 +247,7 @@ added = 'foo1' + 'bar1'; /* added equals 'foo1bar1' */
 
 Subtracts two values.
 
-If both values contain only numbers, then mathematically subtract the numbers. If at least one of the values contain text, Boxlang will concatenate the two values together.
+If both values contain only numbers, then Boxlang will mathematically subtract the numbers. If at least one of the values contain text, Boxlang will concatenate the two values together.
 
 ```
 subtracted = '1' - '2'; /* subtracted equals '-1' */
@@ -261,7 +261,7 @@ subtracted = 'foo1' - 'bar1'; /* subtracted equals 'foo1bar1' */
 
 Multiplies two values.
 
-If both values contain only numbers, then mathematically multiply the numbers. If at least one of the values contain text, Boxlang will concatenate the two values together.
+If both values contain only numbers, then Boxlang will mathematically multiply the numbers. If at least one of the values contain text, Boxlang will concatenate the two values together.
 
 ```
 multiplied = '2' * '4'; /* multiplied equals '8' */
