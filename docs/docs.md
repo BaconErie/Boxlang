@@ -257,6 +257,20 @@ subtracted = 'foo1' - 'bar1'; /* subtracted equals 'foo1bar1' */
 
 >**Note**: Like with the addition operator, *NEVER* use the subtraction operator to concatenate. Always use the concatenate operator (`..`) when joining values together.
 
+### **Multiplication Operator (`*`)**
+
+Multiplies two values.
+
+If both values contain only numbers, then mathematically subtract the numbers. If at least one of the values contain text, Boxlang will concatenate the two values together.
+
+```
+multiplied = '2' * '4'; /* multiplied equals '8' */
+
+multiplied = 'foo' * 'bar'; /* multiplied equals 'foobar' */
+```
+
+>**Note**: Like with the addition and subtraction operator, *NEVER* use the subtraction operator to concatenate. Always use the concatenate operator (`..`) when joining values together.
+
 ## Break and End
 
 # Core Principles of Boxlang
