@@ -261,7 +261,7 @@ subtracted = 'foo1' - 'bar1'; /* subtracted equals 'foo1bar1' */
 
 Multiplies two values.
 
-If both values contain only numbers, then mathematically subtract the numbers. If at least one of the values contain text, Boxlang will concatenate the two values together.
+If both values contain only numbers, then mathematically multiply the numbers. If at least one of the values contain text, Boxlang will concatenate the two values together.
 
 ```
 multiplied = '2' * '4'; /* multiplied equals '8' */
