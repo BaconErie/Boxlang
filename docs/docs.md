@@ -271,6 +271,17 @@ multiplied = 'foo' * 'bar'; /* multiplied equals 'foobar' */
 
 >**Note**: Like with the addition and subtraction operator, *NEVER* use the subtraction operator to concatenate. Always use the concatenate operator (`..`) when joining values together.
 
+### **Division Operator (`/`)**
+
+Divides two values.
+
+If both values contain only numbers, then Boxlang will mathematically divide the numbers. If the values are NOT both numbers, Boxlang will error.
+
+```
+divided = '4' / '2'; /* divided equals '2' */
+
+divided = 'foo' / 'bar'; /* Errors */
+```
 ## Break and End
 
 # Core Principles of Boxlang
