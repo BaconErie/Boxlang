@@ -276,6 +276,19 @@ divided = '4' / '2'; /* divided equals '2' */
 
 divided = 'foo' / 'bar'; /* Errors */
 ```
+
+### **Exponent Operator (`^`)**
+
+Multiplies a number by itself by a given number of times.
+
+If both values contain only numbers, then Boxlang will mathematically execute the exponentiation. If the values are NOT both numbers, Boxlang will error.
+
+```
+exponent = '4' ^ '2'; /* Multiplies 4 by itself 2 times, equating to 16.
+
+exponent = 'foo' / 'bar'; /* Errors */
+```
+
 ## Break and End
 
 # Core Principles of Boxlang
